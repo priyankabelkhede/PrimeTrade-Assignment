@@ -1,4 +1,6 @@
-# Full-Stack Task Management Application
+# PrimeTrade-Assignment
+
+Full-stack Task Management Application - Backend Developer Intern Assignment
 
 A complete full-stack application built for the Backend Developer Intern assignment, featuring user authentication and task management.
 
@@ -23,10 +25,13 @@ A complete full-stack application built for the Backend Developer Intern assignm
 
 ## 📁 Project Structure
 
-intern-assignment/
-├── backend/ # Node.js/Express API
-├── frontend/ # React.js application
-└── README.md # This file
+PrimeTrade-Assignment/
+├── backend-intern-assignment/ # Node.js/Express API
+├── frontend-intern-assignment/ # React.js application
+├── .gitignore
+└── README.md
+
+text
 
 ### Prerequisites
 
@@ -37,21 +42,21 @@ intern-assignment/
 ### Backend Setup
 
 ```bash
-cd backend
+cd backend-intern-assignment
 npm install
 npm run dev
-```
+Frontend Setup
 
-## Frontend Setup
-
-cd frontend  
+bash
+cd frontend-intern-assignment
 npm install
 npm start
 
-## API Documentation
+API Documentation
 
 Backend runs on: http://localhost:5002
 
 Frontend runs on: http://localhost:3002
 
 API Docs: http://localhost:5002/api-docs
+```
