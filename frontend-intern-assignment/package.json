@@ -2,11 +2,15 @@
   "name": "frontend-intern-assignment",
   "version": "1.0.0",
   "description": "Frontend UI for Backend Intern Assignment",
+  "overrides": {
+    "nth-check": "2.0.1",
+    "postcss": "8.4.31",
+    "webpack-dev-server": "4.15.1"
+  },
   "dependencies": {
+    "axios": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "axios": "^1.5.0",
     "react-router-dom": "^6.15.0"
   },
   "scripts": {
@@ -26,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
