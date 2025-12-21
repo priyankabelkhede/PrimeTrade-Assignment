@@ -1,8 +1,10 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5002/api/v1"; // Backend port 5002
+const API_BASE_URL = "https://primetrade-assignment-po1d.onrender.com/api/v1"; // Backend port 5002
+// const { API_BASE_URL } = process.env;
+// const API_BASE_URL = "http://localhost:5002/api/v1"; // Backend port 5002
 
-// Create axios instance
+// console.log("The API URL is:", API_BASE_URL); // Create axios instance
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
